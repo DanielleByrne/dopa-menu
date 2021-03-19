@@ -18,7 +18,7 @@ function changeTab(evt, type) {
     evt.currentTarget.className += " active";
   }
 
-  // different mood avtivity tabs
+  // different mood  tabs
   function moodTabs(evt, type) {
     var i, tabcontentTwo, tablinks;
   
@@ -35,3 +35,22 @@ function changeTab(evt, type) {
     document.getElementById(type).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+
+    // different activity  tabs
+    function activityTabs(evt, type) {
+        var i, tabcontentThree, tablinks;
+      
+        tabcontentThree = document.getElementsByClassName("tabcontentThree");
+        for (i = 0; i < tabcontentThree.length; i++) {
+            tabcontentThree[i].style.display = "none";
+        }
+      
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+      
+        document.getElementById(type).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
