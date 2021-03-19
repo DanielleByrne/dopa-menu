@@ -11,529 +11,538 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>DopaMenu</title>
   </head>
   <body>
-    <div class="heading">
-      <h1>What would you like to do?</h1>
-    </div>
-    <div class="tab">
-      <button class="tablinks" onclick="changeTab(event, 'Mood')">Mood</button>
-      <button class="tablinks" onclick="changeTab(event, 'Activity')">
-        Activity Type
-      </button>
-    </div>
-    <!-- Mood Tab -->
-    <div id="Mood" class="tabcontent">
-      <h3>Mood</h3>
-      <p>Mood</p>
-      <!-- category tabs -->
-      <div class="mood-tab">
-        <div class="tab">
-          <button class="tablinks" onclick="moodTabs(event, 'Relax')">
-            Relax & De-Stress
+    <div class="conatiner">
+      <div class="heading">
+        <h1>What would you like to do?</h1>
+      </div>
+      <div class="tab">
+        <button class="tablinks" onclick="changeTab(event, 'Mood')">
+          Mood
+        </button>
+        <button class="tablinks" onclick="changeTab(event, 'Activity')">
+          Activity Type
+        </button>
+      </div>
+      <!-- Mood Tab -->
+      <div id="Mood" class="tabcontent">
+        <!-- category tabs -->
+        <div class="mood-tab">
+          <div class="tab">
+            <button class="tablinks" onclick="moodTabs(event, 'Relax')">
+              Relax & De-Stress
+            </button>
+            <button class="tablinks" onclick="moodTabs(event, 'Inspired')">
+              Get Inspired
+            </button>
+            <button class="tablinks" onclick="moodTabs(event, 'Energy')">
+              Boost Energy
+            </button>
+            <button class="tablinks" onclick="moodTabs(event, 'Productive')">
+              Feel Productive
+            </button>
+            <button class="tablinks" onclick="moodTabs(event, 'Favorites')">
+              Favorites
+            </button>
+          </div>
+        </div>
+        <!-- sort by buttons -->
+        <div class="sort-buttons">
+          <p>Sort By:</p>
+          <button type="button" class="btn btn-secondary btn-sm">
+            Shortest
           </button>
-          <button class="tablinks" onclick="moodTabs(event, 'Inspired')">
-            Get Inspired
+          <button type="button" class="btn btn-secondary btn-sm">
+            Lowest Effort
           </button>
-          <button class="tablinks" onclick="moodTabs(event, 'Energy')">
-            Boost Energy
+        </div>
+        <!-- categories -->
+        <!-- relax category -->
+        <div id="Relax" class="tabcontentTwo">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Journal your thoughts
           </button>
-          <button class="tablinks" onclick="moodTabs(event, 'Productive')">
-            Feel Productive
+          <button type="button" class="btn btn-secondary btn-lg">
+            Meditate
           </button>
-          <button class="tablinks" onclick="moodTabs(event, 'Favorites')">
-            Favorites
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice a skincare routine
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take a warm shower
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Have a hot bath
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take 5 deep beaths
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Solve a puzzle
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a board game
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice an instrument
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Draw or doodle
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a cup of coffee or tea
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Call your mom or dad
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Write a friend a gratitude
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Call or message a friend
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a video game
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Bake some cookies
+          </button>
+        </div>
+        <!-- inspired category -->
+        <div id="Inspired" class="tabcontentTwo">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice an instrument
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Draw or doodle
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make some art
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice singing a song
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some crafts
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Watch a youtube channel
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Find a recipe to make tonight
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Call or message a friend
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take a personality test or quiz
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorite podcast
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Watch a movie or documentary
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorite music
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Curate a playlist
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Share a song with a friend
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Find a movie for your next movie night
+          </button>
+        </div>
+        <!-- energy category -->
+        <div id="Energy" class="tabcontentTwo">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Get up and stretch
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a jog
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice a yoga pose
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some light exercise
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some intense exercise
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a bike ride
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a walk
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Dance to your favorite song
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Walk your dog
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Have your favorite snack
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a smoothie
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Compliemnt a stranger
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play with a pet
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorite podcast
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorie music
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do one minute of jumping jacks with a mantra
+          </button>
+        </div>
+        <!-- productive category -->
+        <div id="Productive" class="tabcontentTwo">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a to do list
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Read a book or article
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Study an online course
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Brainstorm an idea
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Fix something that's broken
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Organize an area of your closet
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Wash the dishes in the sink
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Clean an area in the house
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Start a load of laundry
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Fold your laundry
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Pick up some things off the floor
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a grocery list
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorite podcast
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Start prepping for dinner
+          </button>
+        </div>
+        <!-- favorites -->
+        <div id="Favorites" class="tabcontentTwo">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Walk your dog
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a board game
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listne to your favorite music
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Study an online article
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take a personality test or quiz
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some intense exercise
           </button>
         </div>
       </div>
-      <!-- sort by buttons -->
-      <div class="sort-buttons">
-        <p>Sort By:</p>
-        <button type="button" class="btn btn-secondary btn-sm">Shortest</button>
-        <button type="button" class="btn btn-secondary btn-sm">
-          Lowest Effort
-        </button>
-      </div>
-      <!-- categories -->
-      <!-- relax category -->
-      <div id="Relax" class="tabcontentTwo">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Journal your thoughts
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">Meditate</button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice a skincare routine
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take a warm shower
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Have a hot bath
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take 5 deep beaths
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Solve a puzzle
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a board game
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice an instrument
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Draw or doodle
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a cup of coffee or tea
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Call your mom or dad
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Write a friend a gratitude
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Call or message a friend
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a video game
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Bake some cookies
-        </button>
-      </div>
-      <!-- inspired category -->
-      <div id="Inspired" class="tabcontentTwo">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice an instrument
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Draw or doodle
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make some art
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice singing a song
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some crafts
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Watch a youtube channel
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Find a recipe to make tonight
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Call or message a friend
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take a personality test or quiz
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorite podcast
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Watch a movie or documentary
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorite music
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Curate a playlist
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Share a song with a friend
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Find a movie for your next movie night
-        </button>
-      </div>
-      <!-- energy category -->
-      <div id="Energy" class="tabcontentTwo">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Get up and stretch
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a jog
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice a yoga pose
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some light exercise
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some intense exercise
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a bike ride
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a walk
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Dance to your favorite song
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Walk your dog
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Have your favorite snack
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a smoothie
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Compliemnt a stranger
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play with a pet
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorite podcast
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorie music
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do one minute of jumping jacks with a mantra
-        </button>
-      </div>
-      <!-- productive category -->
-      <div id="Productive" class="tabcontentTwo">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a to do list
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Read a book or article
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Study an online course
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Brainstorm an idea
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Fix something that's broken
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Organize an area of your closet
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Wash the dishes in the sink
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Clean an area in the house
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Start a load of laundry
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Fold your laundry
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Pick up some things off the floor
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a grocery list
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorite podcast
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Start prepping for dinner
-        </button>
-      </div>
-      <!-- favorites -->
-      <div id="Favorites" class="tabcontentTwo">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Walk your dog
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a board game
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listne to your favorite music
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Study an online article
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take a personality test or quiz
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some intense exercise
-        </button>
-      </div>
-    </div>
-
-    <!-- Activity Tab -->
-    <div id="Activity" class="tabcontent">
-      <h3>Activity</h3>
-      <p>Activity.</p>
-      <div class="activity-tab">
-        <div class="tab">
-          <button class="tablinks" onclick="activityTabs(event, 'Cleaning')">
-            Cleaning
+      <!-- Activity Tab -->
+      <div id="Activity" class="tabcontent">
+        <div class="activity-tab">
+          <div class="tab">
+            <button class="tablinks" onclick="activityTabs(event, 'Cleaning')">
+              Cleaning
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Body')">
+              Body
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Creative')">
+              Creative
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'SelfCare')">
+              Self-Care
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Mind')">
+              Mind
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Food')">
+              Food
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Social')">
+              Social
+            </button>
+            <button class="tablinks" onclick="activityTabs(event, 'Media')">
+              Media
+            </button>
+            <button
+              class="tablinks"
+              onclick="activityTabs(event, 'FavoritesTwo')"
+            >
+              Favorites
+            </button>
+          </div>
+        </div>
+        <div class="sort-buttons">
+          <p>Sort By:</p>
+          <button type="button" class="btn btn-secondary btn-sm">
+            Shortest
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Body')">
-            Body
+          <button type="button" class="btn btn-secondary btn-sm">
+            Lowest Effort
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Creative')">
-            Creative
+        </div>
+        <!-- categories -->
+        <!-- cleaning category -->
+        <div id="Cleaning" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Organize an area of your closet
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'SelfCare')">
-            Self-Care
+          <button type="button" class="btn btn-secondary btn-lg">
+            Wash the dishes in the sink
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Mind')">
-            Mind
+          <button type="button" class="btn btn-secondary btn-lg">
+            Clean an area of your house
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Food')">
-            Food
+          <button type="button" class="btn btn-secondary btn-lg">
+            Start a load of laundry
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Social')">
-            Social
+          <button type="button" class="btn btn-secondary btn-lg">
+            Fold your laundry
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'Media')">
-            Media
+          <button type="button" class="btn btn-secondary btn-lg">
+            Pick some things off the floor
           </button>
-          <button class="tablinks" onclick="activityTabs(event, 'FavoritesTwo')">
-            Favorites
+        </div>
+        <!-- body category -->
+        <div id="Body" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Get up and stretch
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a jog
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice a yoga pose
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some light exercise
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some intense exercise
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a bike ride
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Go for a walk
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Dance to your favorite song
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Walk your dog
+          </button>
+        </div>
+        <!-- Creative -->
+        <div id="Creative" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice an instrument
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Draw or doodle
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Fix something that's broken
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make some art
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice singing a song
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Capture the moment with a photo
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some crafts
+          </button>
+        </div>
+        <!-- self- care -->
+        <div id="SelfCare" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Meditate
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Practice a skin care routine
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Journal your thoughts
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take a warm shower
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Have a hot bath
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take 5 deep breaths
+          </button>
+        </div>
+        <!-- mind -->
+        <div id="Mind" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a to do list
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a board game
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Read a book or article
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Solve a puzzle
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Watch a Youtube video
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Study an online course
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Brainstorm an idea
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Take a personality test or quiz
+          </button>
+        </div>
+        <!-- Food -->
+        <div id="Food" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Have your favorite snack
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Find a recipe to make tonight
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a cup of coffee or tea
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a smoothie
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Start preparing for dinner
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Bake some cookies
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Make a grocery list
+          </button>
+        </div>
+        <!-- Social -->
+        <div id="Social" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Spend some time with a loved one
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Compliment a stranger
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play with a pet
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Call or message a friend
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Write a friend a grattitude letter
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Call a family member
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Grab a coffee with a friend
+          </button>
+        </div>
+        <!-- Media -->
+        <div id="Media" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your favorite podcast
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Watch a movie or documentary
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Listen to your faovrite music
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Curate a playlist
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Share a song with a friend
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Find a movie for your next movie night
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a video game
+          </button>
+        </div>
+        <!-- Favorites -->
+        <div id="FavoritesTwo" class="tabcontentThree">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Play a board game
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Curate a playlist
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Fold your laundry
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Capture the moment with a photo
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Bake some cookies
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Write a friend a grattitude letter
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Do some intense exercise
           </button>
         </div>
       </div>
-      <div class="sort-buttons">
-        <p>Sort By:</p>
-        <button type="button" class="btn btn-secondary btn-sm">Shortest</button>
-        <button type="button" class="btn btn-secondary btn-sm">
-          Lowest Effort
-        </button>
-      </div>
-      <!-- categories -->
-      <!-- cleaning category -->
-      <div id="Cleaning" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Organize an area of your closet
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Wash the dishes in the sink
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Clean an area of your house
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Start a load of laundry
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Fold your laundry
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Pick some things off the floor
-        </button>
-      </div>
-      <!-- body category -->
-      <div id="Body" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Get up and stretch
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a jog
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice a yoga pose
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some light exercise
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some intense exercise
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a bike ride
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Go for a walk
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Dance to your favorite song
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Walk your dog
-        </button>
-      </div>
-      <!-- Creative -->
-      <div id="Creative" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice an instrument
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Draw or doodle
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Fix something that's broken
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make some art
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice singing a song
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Capture the moment with a photo
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some crafts
-        </button>
-      </div>
-      <!-- self- care -->
-      <div id="SelfCare" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">Meditate</button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Practice a skin care routine
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Journal your thoughts
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take a warm shower
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Have a hot bath
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take 5 deep breaths
-        </button>
-      </div>
-      <!-- mind -->
-      <div id="Mind" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a to do list
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a board game
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Read a book or article
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Solve a puzzle
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Watch a Youtube video
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Study an online course
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Brainstorm an idea
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Take a personality test or quiz
-        </button>
-      </div>
-      <!-- Food -->
-      <div id="Food" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Have your favorite snack
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Find a recipe to make tonight
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a cup of coffee or tea
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a smoothie
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Start preparing for dinner
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Bake some cookies
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Make a grocery list
-        </button>
-      </div>
-      <!-- Social -->
-      <div id="Social" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Spend some time with a loved one
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Compliment a stranger
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play with a pet
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Call or message a friend
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Write a friend a grattitude letter
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Call a family member
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Grab a coffee with a friend
-        </button>
-      </div>
-      <!-- Media -->
-      <div id="Media" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your favorite podcast
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Watch a movie or documentary
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Listen to your faovrite music
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Curate a playlist
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Share a song with a friend
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Find a movie for your next movie night
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a video game
-        </button>
-      </div>
-      <!-- Favorites -->
-      <div id="FavoritesTwo" class="tabcontentThree">
-        <button type="button" class="btn btn-secondary btn-lg">
-          Play a board game
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Curate a playlist
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Fold your laundry
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Capture the moment with a photo
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Bake some cookies
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Write a friend a grattitude letter
-        </button>
-        <button type="button" class="btn btn-secondary btn-lg">
-          Do some intense exercise
-        </button>
-      </div>
     </div>
-    <div class="container"></div>
   </body>
   <script src="./assets/scripts/script.js"></script>
 </html>
