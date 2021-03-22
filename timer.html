@@ -16,27 +16,57 @@
   <body>
     <div class="container">
       <div class="timer">
-        <div class="hand"></div>
-        <div class="controls">
-          <div class="time">
-            <div id="minutes">20</div>
-            <div id="seconds">00</div>
-          </div>
-          <div class="buttons">
-            <button aria-label="play" id="play">
-              <i class="fa fa-play" aria-hidden="true"></i>
-            </button>
-            <button aria-label="pause" id="pause">
-              <i class="fa fa-pause" aria-hidden="true"></i>
-            </button>
-            <button aria-label="stop" id="stop">
-              <i class="fa fa-stop" aria-hidden="true"></i>
-            </button>
-          </div>
-          <div class="input">
-            <label for="length"> Timer Length</label>
-            <input type="number" name="length" id="minutes" />
-          </div>
+        <div class="time">
+          <p id="hour-label" class="label">Hours</p>
+          <p id="minutes-label" class="label">Minutes</p>
+          <p id="seconds-label" class="label">Seconds</p>
+        </div>
+        <div class="input-hours">
+          <label for="length"> hour Length</label>
+          <input
+            type="number"
+            max="99"
+            min="0"
+            value="0"
+            name="length"
+            id="hours"
+            class="time"
+          />
+        </div>
+        <div class="input-minutes">
+          <label for="length"> mins Length</label>
+          <input
+            type="number"
+            max="60"
+            min="0"
+            value="0"
+            name="length"
+            id="minutes"
+            class="time"
+          />
+        </div>
+        <div class="input-secs">
+          <label for="length"> sec Length</label>
+          <input
+            type="number"
+            max="60"
+            min="0"
+            value="0"
+            name="length"
+            id="seconds"
+            class="time"
+          />
+        </div>
+        <div class="buttons">
+          <button aria-label="play" class="btn btn-primary" id="start">
+            <i class="fa fa-play" aria-hidden="true">start</i>
+          </button>
+          <button aria-label="pause" class="btn btn-primary" id="pause">
+            <i class="fa fa-pause" aria-hidden="true">pause</i>
+          </button>
+          <button aria-label="stop" class="btn btn-primary" id="stop">
+            <i class="fa fa-stop" aria-hidden="true">stop</i>
+          </button>
         </div>
       </div>
     </div>
