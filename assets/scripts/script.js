@@ -52,3 +52,5 @@ function activityTabs(evt, type) {
   document.getElementById(type).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
