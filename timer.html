@@ -11,10 +11,35 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>Timer</title>
   </head>
   <body>
-    <h1>timer :)</h1>
+    <div class="container">
+      <div class="timer">
+        <div class="hand"></div>
+        <div class="controls">
+          <div class="time">
+            <div id="minutes">20</div>
+            <div id="seconds">00</div>
+          </div>
+          <div class="buttons">
+            <button aria-label="play" id="play">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+            <button aria-label="pause" id="pause">
+              <i class="fa fa-pause" aria-hidden="true"></i>
+            </button>
+            <button aria-label="stop" id="stop">
+              <i class="fa fa-stop" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="input">
+            <label for="length"> Timer Length</label>
+            <input type="number" name="length" id="minutes" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="./assets/scripts/timer.js"></script>
   <script
