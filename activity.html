@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -12,8 +12,95 @@
       crossorigin="anonymous"
     />
     <title>Activity</title>
-</head>
-<body>
-    <h1>activity :)</h1>
-</body>
+  </head>
+  <body>
+    <div class="activity-heading">
+      <a href="dopamenu.html" class="bpmenu-back">&#8249;</a>
+      <h1 id="activity-header">Call or Message a friend</h1>
+      <div class="activity-details">
+        <span class="badge rounded-pill bg-secondary">Social</span>
+        <span class="badge rounded-pill bg-secondary">Boost Energy</span>
+        <span class="badge rounded-pill bg-secondary">Low Effort</span>
+        <span class="badge rounded-pill bg-secondary">Medium</span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="activity-desctiption">
+        <h3>How this activity gives back</h3>
+        <p>
+          Taking time to nurture our friendships helps us reduce stress, build
+          resilience and lift our moods by releasing oxytocin in the body.
+          Strong social bonds have also been scientifically proven to help us
+          live longer!
+        </p>
+        <h3>Activity Notes</h3>
+        <p class="activity-notes">
+          Catch up with Janet, ask about what to bring for upcoming game night.
+            
+        </p>
+        <!-- Button trigger modal -->
+        <div class="d-grid gap-2">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            id="modal-button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Commit to this activity
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  How about we time this activity?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Time boxing is helpful in keeping you focused and accountable
+                for the task at hand.
+              </div>
+              <div class="modal-footer d-grid gap-2">
+                <a
+                  type="button"
+                  class="btn btn-secondary modal-buttons"
+                  href="#"
+                >
+                  Sure, let's set a timer
+                </a>
+                <a
+                  type="button"
+                  class="btn btn-secondary modal-buttons"
+                  href="#"
+                >
+                  No thanks, I don't need a timer
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+  ></script>
 </html>
