@@ -22,7 +22,7 @@ function decTime() {
     second.value = 59;
     minute.value--;
   } else if (hour.value != 0 && minute.value == 0) {
-    minute.value = 59;
+    minute.value = 60;
     hour.value--;
   }
 }
