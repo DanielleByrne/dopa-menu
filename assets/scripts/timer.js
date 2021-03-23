@@ -27,10 +27,6 @@ function decTime() {
   }
 }
 
-//function to stop timer
-function stopTimer() {
-  clearInterval(startTimer);
-}
 
 //event listeners
 start.addEventListener("click", function () {
@@ -49,6 +45,3 @@ reset.addEventListener("click", function () {
   stopTimer();
 });
 
-stop.addEventListener("click", function () {
-  console.log("stop");
-});
