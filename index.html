@@ -46,7 +46,6 @@
       <!-- Mood Tab -->
       <div class="categories">
         <!-- category tabs -->
-        <div class="mood-tab"></div>
         <!-- sort by buttons -->
         <div class="sort-buttons">
           <p>Sort By:</p>
@@ -57,10 +56,60 @@
             Lowest Effort
           </button>
         </div>
-        <!-- categories -->
+        <!-- category tabs -->
+        <div id="defaultOpen" class="tabcontentTwo">
+          <div class="activity-tab">
+            <div class="tab">
+              <button class="tablinks" onclick="activityTabs(event, 'Relax')">
+                Relax & De-Stress
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Inspired')">
+                Get Inspired
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Energy')">
+                Boost Energy
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Productive')">
+                Feel Productive
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Favorites')">
+                Favorites
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Cleaning')">
+                Cleaning
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Body')">
+                Body
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Creative')">
+                Creative
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'SelfCare')">
+                Self-Care
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Mind')">
+                Mind
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Food')">
+                Food
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Social')">
+                Social
+              </button>
+              <button class="tablinks" onclick="activityTabs(event, 'Media')">
+                Media
+              </button>
+              <button
+                class="tablinks"
+                onclick="activityTabs(event, 'FavoritesTwo')"
+              >
+                Favorites
+              </button>
+            </div>
+          </div>
         <!-- relax category -->
         <div class="category-buttons">
-          <div id="Relax" class="">
+          <div id="Relax" class="tabcontentThree">
             <a
               type="button"
               class="btn btn-secondary btn-lg"
@@ -115,7 +164,7 @@
             </button>
           </div>
           <!-- inspired category -->
-          <div id="Inspired" class="tabcontentTwo">
+          <div id="Inspired" class="tabcontentThree">
             <button type="button" class="btn btn-secondary btn-lg">
               Practice an instrument
             </button>
@@ -163,7 +212,7 @@
             </button>
           </div>
           <!-- energy category -->
-          <div id="Energy" class="tabcontentTwo">
+          <div id="Energy" class="tabcontentThree">
             <button type="button" class="btn btn-secondary btn-lg">
               Get up and stretch
             </button>
@@ -214,7 +263,7 @@
             </button>
           </div>
           <!-- productive category -->
-          <div id="Productive" class="tabcontentTwo">
+          <div id="Productive" class="tabcontentThree">
             <button type="button" class="btn btn-secondary btn-lg">
               Make a to do list
             </button>
@@ -259,7 +308,7 @@
             </button>
           </div>
           <!-- favorites -->
-          <div id="Favorites" class="tabcontentTwo">
+          <div id="Favorites" class="tabcontentThree">
             <button type="button" class="btn btn-secondary btn-lg">
               Walk your dog
             </button>
