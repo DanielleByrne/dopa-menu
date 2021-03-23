@@ -75,3 +75,9 @@
 .category-buttons {
   padding: 2%;
 }
+
+.list-buttons{
+    display: inline-block;
+    vertical-align: top;
+
+}

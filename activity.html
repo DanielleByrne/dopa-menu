@@ -46,8 +46,11 @@
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            Commit to this activity
+            Add to todays list
           </button>
+          <a type="button" class="btn btn-secondary" href="timer.html">
+            Start timer
+          </a>
         </div>
 
         <!-- Modal -->
@@ -61,9 +64,8 @@
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header border-0">
-                <h5 class="modal-title" id="exampleModalLabel">
-                  How about we time this activity?
-                </h5>
+                <h5 class="modal-title" id="exampleModalLabel">Yay!</h5>
+
                 <button
                   type="button"
                   class="btn-close"
@@ -72,24 +74,19 @@
                 ></button>
               </div>
               <div class="modal-body">
-                Time boxing is helpful in keeping you focused and accountable
-                for the task at hand.
+                Your activity has been added to today's list!
               </div>
-              <div class="modal-footer  mx-auto border-0 d-grid gap-2">
+              <p>👍</p>
+              <div class="modal-footer mx-auto border-0 d-grid gap-2">
                 <a
                   type="button"
                   class="btn btn-secondary modal-buttons"
                   href="timer.html"
                 >
-                  Sure, let's set a timer
+                  See today's list
                 </a>
-                <a
-                  type="button"
-                  class="btn btn-secondary modal-buttons"
-                  href="timesup.html"
-                >
-                  No thanks, I don't need a timer
-                </a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Dismiss</button>
+
               </div>
             </div>
           </div>
