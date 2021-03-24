@@ -22,14 +22,21 @@
 
 .today-buttons {
   display: flex;
+  padding-left: 2%;
+  padding-bottom: 3%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 100px;
+  width: 500px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .category-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 11px 95px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 95px;
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -109,11 +116,22 @@
   align-items: center;
 }
 
-
-.nav-heading{
-    background-image: url(../images/gradient-crop1.png);
+.nav-heading {
+  background-image: url(../images/gradient-crop1.png);
 }
 
-.activity-heading{
-    background: linear-gradient(255.34deg, #F4CDE1 10.19%, #FFADAD 89.19%);
+.activity-heading {
+  background: linear-gradient(255.34deg, #f4cde1 10.19%, #ffadad 89.19%);
+}
+
+.tl-heading {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+}
+
+.list-buttons {
+  width: 130px;
+  height: 100px;
+  white-space: normal;
 }
