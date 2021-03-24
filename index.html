@@ -14,7 +14,7 @@
     <title>DopaMenu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light  nav-heading">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Pomotato</a>
         <button
@@ -40,8 +40,8 @@
           </div>
         </div>
       </div>
-      <div class="today-list-heading col-xs-6">
-        <h1>Todays List</h1>
+      <h1>Todays List</h1>
+      <div class="col-xs-6 today-buttons" >
         <button type="button" class="btn btn-secondary   btn-group list-buttons">
           Practice a yoga pose
         </button>
@@ -53,8 +53,7 @@
         </button>
       </div>
     </nav>
-    <div class="conatiner">
-
+    <div class="container">
       <div class="heading">
         <h1>All activites</h1>
         <a class="badge rounded-pill bg-light text-dark" href="./new-activity.html">Add activity</a>
@@ -76,50 +75,50 @@
         <div id="defaultOpen" class="tabcontentTwo">
           <div class="activity-tab">
             <div class="tab">
-              <span class="tablinks badge rounded-pill bg-dark " onclick="activityTabs(event, 'Relax')">
+              <button class="tablinks btn btn-outline-dark " onclick="activityTabs(event, 'Relax')">
                 Relax & De-Stress
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Inspired')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Inspired')">
                 Get Inspired
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Energy')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Energy')">
                 Boost Energy
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Productive')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Productive')">
                 Feel Productive
-              </span>
+              </button>
             </div>
             <div class="tab">
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Cleaning')">
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Cleaning')">
                 Cleaning
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Body')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Body')">
                 Body
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Creative')">
+              </button>
+              <button class="tablinks btn btn-outline-dark " onclick="activityTabs(event, 'Creative')">
                 Creative
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'SelfCare')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'SelfCare')">
                 Self-Care
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Mind')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Mind')">
                 Mind
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Food')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Food')">
                 Food
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Social')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Social')">
                 Social
-              </span>
-              <span class="tablinks badge rounded-pill bg-dark" onclick="activityTabs(event, 'Media')">
+              </button>
+              <button class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Media')">
                 Media
-              </span>
-              <span
-                class="tablinks badge rounded-pill bg-dark"
+              </button>
+              <button
+                class="tablinks badge btn-outline-dark"
                 onclick="activityTabs(event, 'FavoritesTwo')"
               >
                 Favorites
-              </span>
+              </button>
             </div>
           </div>
         <!-- relax category -->

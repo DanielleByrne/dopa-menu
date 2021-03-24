@@ -2,23 +2,35 @@
 .tab {
   overflow-x: scroll;
   overflow-y: hidden;
-  height: 25px;
-  width: 300px;
+  height: 50px;
+  width: 500px;
   display: inline-block;
   white-space: nowrap;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
   float: left;
-  border: none;
-  outline: none;
+  border-radius: 0%;
+  outline: lightgray;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  margin-right: 2%;
+  padding-bottom: 2%;
 }
 
+.today-buttons {
+  display: flex;
+}
+
+.category-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 95px;
+
+}
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
@@ -53,7 +65,8 @@
   padding-top: 2%;
 }
 #activity-header {
-  padding-top: 4%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 .activity-desctiption {
@@ -94,4 +107,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.nav-heading{
+    background-image: url(../images/gradient-crop1.png);
+}
+
+.activity-heading{
+    background: linear-gradient(255.34deg, #F4CDE1 10.19%, #FFADAD 89.19%);
 }
