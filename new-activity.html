@@ -19,62 +19,62 @@
     <title>New Activity</title>
   </head>
   <body>
-    <div class="conatiner">
-        <a href="index.html" class="bpmenu-back">&#8249;</a>
-      <input type="text" class="activity-name" /> Activity Name
+    <div class="container">
+      <a href="index.html" class="bpmenu-back">&#8249;</a>
+      <input type="text" class="activity-name" placeholder="Activity name..." />
       <div class="length-tags">
         <p>Select Tags</p>
-        <button type="button" class="btn btn-outline-dark">Short</button>
-        <button type="button" class="btn btn-outline-dark">Meduium</button>
-        <button type="button" class="btn btn-outline-dark">Long</button>
+        <button type="button" class="btn length-btn new-act-btn btn-outline-dark">Short</button>
+        <button type="button" class="btn length-btn new-act-btn btn-outline-dark">Medium</button>
+        <button type="button" class="btn length-btn new-act-btn btn-outline-dark">Long</button>
       </div>
-      <div>
+      <div class="length-tags">
         <p>Effort Level</p>
-        <button type="button" class="btn btn-outline-dark">Low Effort</button>
-        <button type="button" class="btn btn-outline-dark">High effort</button>
+        <button type="button" class="btn length-btn new-act-btn btn-outline-dark">Low Effort</button>
+        <button type="button" class="btn length-btn new-act-btn btn-outline-dark">High effort</button>
       </div>
-      <p>Activity Categories</p>
+      <p class="length-tags">Activity Categories</p>
       <div class="scrolling-categories">
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Relax & De-Stress
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Get Inspired
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Boost Energy
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Feel productive
         </button>
       </div>
       <div class="scrolling-categories">
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Cleaning
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Body
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Creative
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Self-Care
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Mind
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Food
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Social
         </button>
-        <button type="button" class="btn btn-outline-dark tablinks">
+        <button type="button" class="btn new-act-btn btn-outline-dark tablinks">
           Media
         </button>
       </div>
-      <div class="actvivity-notes">
+      <div class="actvivity-notes d-grid gap-2">
         <label for="activity-notes">Activity Notes</label>
         <textarea
           id="activity-input"
@@ -85,7 +85,9 @@
         ></textarea>
       </div>
       <div class="d-grid gap-2">
-        <button type="button" id ="save-activity-button"class="btn btn-dark">Save activity</button>
+        <button type="button" id="save-activity-button" class="btn btn-dark">
+          Save activity
+        </button>
       </div>
     </div>
   </body>

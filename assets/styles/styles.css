@@ -321,3 +321,36 @@ a {
     margin-left: 5%;
     margin-top: -2%;
 }
+input[type=text] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+input[type=number]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+}
+
+.bpmenu-back{
+    float: right;
+}
+
+.length-tags{
+    margin-top: 4%;
+}
+
+.length-btn{
+    margin-top: -2%;
+}
+
+.new-act-btn{
+    border-radius: 8px !important;
+}
