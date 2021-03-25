@@ -242,9 +242,41 @@ a {
     padding: 2%
 }
 
+
+/* timer things */
 #timer-input{
     border-radius: 15px;
     background-color: whitesmoke;
     padding: 2%;
     
 }
+
+.timer-heading{
+    background-image: url(../images/gradient\ background.png);
+}
+.timer-activity-name{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.timer-activity-name-two{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.timer-btn{
+    border-radius: 20px !important;
+    margin-top: 5%;
+    padding: 2%
+}
+
+.time-notes{
+    padding-top: 10%;
+}
+.time-buttons{
+    padding-top: 10%;
+}
+

@@ -19,51 +19,92 @@
     <title>Timer</title>
   </head>
   <body>
-    <div class="container">
-      <div class="timer">
-        <div class="time"></div>
-        <div class="input-hours">
-          <label for="length"> hour Length</label>
-          <input
-            type="number"
-            max="99"
-            min="0"
-            value="0"
-            name="length"
-            id="hours"
-            class="time"
-          />
+    <nav class="navbar navbar-expand-lg navbar-light timer-heading">
+      <div class="container-fluid">
+        <img src="./assets/images/pomotato.png" alt="pomotato logo" />
+        <a class="navbar-brand" href="index.html">Pomotato</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >All activities</a
+            >
+            <a class="nav-link" href="index.html">Today's List</a>
+            <a class="nav-link" href="index.html">Progress</a>
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="index.html">Log Out</a>
+          </div>
         </div>
-        <div class="input-minutes">
-          <label for="length"> mins Length</label>
-          <input
-            type="number"
-            max="60"
-            min="0"
-            value="0"
-            name="length"
-            id="minutes"
-            class="time"
-          />
+      </div>
+    </nav>
+    <div class="container timer-heading">
+      <h1 class="timer-activity-name">Call or message</h1>
+      <h1 class="timer-activity-name-two">a friend</h1>
+      <div class="row">
+        <div class="timer">
+          <div class="col">
+            <div class="input-hours">
+              <label for="length"> hour Length</label>
+              <input
+                type="number"
+                max="99"
+                min="0"
+                value="0"
+                name="length"
+                id="hours"
+                class="time"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-minutes">
+              <label for="length"> mins Length</label>
+              <input
+                type="number"
+                max="60"
+                min="0"
+                value="0"
+                name="length"
+                id="minutes"
+                class="time"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-secs">
+              <label for="length"> sec Length</label>
+              <input
+                type="number"
+                max="60"
+                min="0"
+                value="0"
+                name="length"
+                id="seconds"
+                class="time"
+              />
+            </div>
+          </div>
         </div>
-        <div class="input-secs">
-          <label for="length"> sec Length</label>
-          <input
-            type="number"
-            max="60"
-            min="0"
-            value="0"
-            name="length"
-            id="seconds"
-            class="time"
-          />
-        </div>
-        <div class="buttons">
-          <button aria-label="play" class="btn btn-primary" id="start">
-            <i class="fa fa-play" aria-hidden="true">start</i>
+        <div class="time-buttons">
+          <button
+            aria-label="pause"
+            class="btn timer-btn btn-outline-dark"
+            id="reset"
+          >
+            <i class="fa fa-pause" aria-hidden="true">Reset</i>
           </button>
-          <button aria-label="pause" class="btn btn-primary" id="reset">
-            <i class="fa fa-pause" aria-hidden="true">stop</i>
+          <button aria-label="play" class="btn timer-btn btn-dark" id="start">
+            <i class="fa fa-play" aria-hidden="true">Start timer</i>
           </button>
         </div>
       </div>
