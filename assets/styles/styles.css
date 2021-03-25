@@ -96,8 +96,6 @@
   padding: 2%;
 }
 
-.list-buttons {
-}
 
 .scrolling-categories {
   overflow-x: scroll;
@@ -134,4 +132,7 @@
   width: 130px;
   height: 100px;
   white-space: normal;
+}
+a{
+    appearance: button;
 }
