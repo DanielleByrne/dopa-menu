@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -14,9 +14,9 @@
     <title>DopaMenu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light  nav-heading">
+    <nav class="navbar navbar-expand-lg navbar-light nav-heading">
       <div class="container-fluid">
-        <img src="./assets/images/pomotato.png" alt="pomotato logo">
+        <img src="./assets/images/pomotato.png" alt="pomotato logo" />
         <a class="navbar-brand" href="index.html">Pomotato</a>
         <button
           class="navbar-toggler"
@@ -42,79 +42,131 @@
         </div>
       </div>
       <h1 class="tl-heading">Todays List</h1>
-      <div class="col-xs-6 today-buttons" >
-        <button type="button" class="btn btn-light yellow-btn  btn-group list-buttons">
+      <div class="col-xs-6 today-buttons">
+        <button
+          type="button"
+          class="btn btn-light yellow-btn btn-group list-buttons"
+        >
           Practice a yoga pose
         </button>
-        <button type="button" class="btn btn-light coral-btn btn-group list-buttons">
+        <button
+          type="button"
+          class="btn btn-light coral-btn btn-group list-buttons"
+        >
           Start prepping for dinner
         </button>
-        <button type="button" class="btn btn-light green-btn btn-group list-buttons">
+        <button
+          type="button"
+          class="btn btn-light green-btn btn-group list-buttons"
+        >
           Organize an area of your closet
         </button>
       </div>
     </nav>
     <div class="container">
+      <div class="row">
       <div class="heading">
-        <h1>All activites</h1>
-        <a class="badge rounded-pill bg-light text-dark" href="./new-activity.html">Add activity</a>
+        <h1 class="all-act-heading">All activites</h1>
+        <a
+          class="badge rounded-pill bg-light add-activity-btn text-dark"
+          href="./new-activity.html"
+          >Add activity</a
+        >
       </div>
-      <!-- Mood Tab -->
+    </div>
       <div class="categories">
-        <!-- category tabs -->
-        <!-- sort by buttons -->
-        <div class="sort-buttons">
-          <p>Sort By:</p>
-          <button type="button" class="badge rounded-pill bg-light text-dark">
-            Shortest
-          </button>
-          <button type="button" class="badge rounded-pill bg-light text-dark">
-            Lowest Effort
-          </button>
-        </div>
         <!-- category tabs -->
         <div id="defaultOpen" class="tabcontentTwo">
           <div class="activity-tab">
-            <div class="tab scrolling-categories" >
-              <button  type="button" class="tablinks  btn btn-outline-dark " onclick="activityTabs(event, 'Relax')">
+            <div class="tab scrolling-categories">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Relax')"
+              >
                 Relax & De-Stress
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Inspired')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Inspired')"
+              >
                 Get Inspired
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Energy')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Energy')"
+              >
                 Boost Energy
               </button>
-              <button type="button" class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Productive')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Productive')"
+              >
                 Feel Productive
               </button>
             </div>
-            <div class="tab scrolling-categories ">
-              <button type="button" class="tablinks btn btn-outline-dark" onclick="activityTabs(event, 'Cleaning')">
+            <div class="tab scrolling-categories">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Cleaning')"
+              >
                 Cleaning
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Body')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Body')"
+              >
                 Body
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark " onclick="activityTabs(event, 'Creative')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Creative')"
+              >
                 Creative
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'SelfCare')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'SelfCare')"
+              >
                 Self-Care
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Mind')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Mind')"
+              >
                 Mind
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Food')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Food')"
+              >
                 Food
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Social')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Social')"
+              >
                 Social
               </button>
-              <button type="button" class="tablinks  btn btn-outline-dark" onclick="activityTabs(event, 'Media')">
+              <button
+                type="button"
+                class="tablinks btn btn-outline-dark"
+                onclick="activityTabs(event, 'Media')"
+              >
                 Media
               </button>
-              <button type="button"
+              <button
+                type="button"
                 class="tablinks badge btn-outline-dark"
                 onclick="activityTabs(event, 'FavoritesTwo')"
               >
@@ -122,12 +174,22 @@
               </button>
             </div>
           </div>
+        </div>
+        <div class="sort-buttons">
+          <p class="sort-heading">Sort By:</p>
+          <button type="button" class="badge rounded-pill bg-light text-dark">
+            Shortest
+          </button>
+          <button type="button" class="badge rounded-pill bg-light text-dark">
+            Lowest Effort
+          </button>
+        </div>
         <!-- relax category -->
         <div class="category-buttons">
           <div id="Relax" class="tabcontentThree">
             <a
               type="button"
-              class="btn btn-secondary list-buttons  btn-lg"
+              class="btn btn-secondary list-buttons btn-lg"
               href="activity.html"
             >
               Call or message a friend
@@ -300,7 +362,7 @@
           </div>
           <!-- favorites -->
           <div id="Favorites" class="tabcontentThree">
-            <button type="button" class="btn list-buttons  btn-secondary btn-lg">
+            <button type="button" class="btn list-buttons btn-secondary btn-lg">
               Walk your dog
             </button>
             <button type="button" class="btn list-buttons btn-secondary btn-lg">
@@ -407,7 +469,7 @@
             <button type="button" class="btn list-buttons btn-secondary btn-lg">
               Make a to do list
             </button>
-            <button type="button" class="btn list-buttons  btn-secondary btn-lg">
+            <button type="button" class="btn list-buttons btn-secondary btn-lg">
               Read a book or article
             </button>
             <button type="button" class="btn list-buttons btn-secondary btn-lg">
