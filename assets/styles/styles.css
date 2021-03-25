@@ -131,10 +131,14 @@ body {
 }
 
 .list-buttons {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   width: 130px;
   height: 100px;
   white-space: normal;
+  margin: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /* a tags that look like buttons, looking more likw buttons */
