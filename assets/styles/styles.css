@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 11px 95px;
+  padding: 2px 2px;
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -87,6 +87,7 @@ body {
 
 .category-buttons {
   padding: 2%;
+  font-size: 14px;
 }
 
 /* buttons on the activity page */
@@ -137,8 +138,9 @@ body {
   height: 100px;
   white-space: normal;
   margin: 3%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  word-wrap: break-word;
 }
 
 /* a tags that look like buttons, looking more likw buttons */
@@ -147,11 +149,11 @@ a {
 }
 
 .add-activity-btn {
-    float: right;
-    margin-top: 3%;
+  float: right;
+  margin-top: 3%;
 }
-.all-act-heading{
-    float:left
+.all-act-heading {
+  float: left;
 }
 
 .yellow-btn {
@@ -159,6 +161,7 @@ a {
   border-radius: 8px;
   border: none !important;
   align-items: center;
+  font-size: smaller;
 }
 
 .coral-btn {
@@ -166,23 +169,63 @@ a {
   border-radius: 8px;
   border: none !important;
   align-items: center;
+  font-size: smaller;
+}
+
+.orange-btn {
+  background: #fbbe79 !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
 }
 
 .green-btn {
-    background: #C1D289 !important;
-    border-radius: 8px;
-    border: none !important;
-    align-items: center;
-  }
-  
-.heading{
-    margin-top: 4%;
+  background: #c1d289 !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
+}
+.blue-btn {
+  background: #a8dfff !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
+}
+.pink-btn {
+  background: #f4cde1 !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
 }
 
-.sort-heading{
-    margin-bottom: 1%;
+.purple-btn {
+  background: #d2c2ef !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
 }
 
-.sort-buttons{
-    margin-bottom: 5%;
+.teal-btn {
+  background: #A6DED3 !important;
+  border-radius: 8px;
+  border: none !important;
+  align-items: center;
+  font-size: smaller;
+}
+
+.heading {
+  margin-top: 4%;
+}
+
+.sort-heading {
+  margin-bottom: 1%;
+}
+
+.sort-buttons {
+  margin-bottom: 5%;
 }
