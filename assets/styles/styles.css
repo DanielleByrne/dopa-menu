@@ -69,10 +69,10 @@ body {
   padding: 2%;
 }
 
-.timer-notes{
-    border-radius: 15px;
-    background-color: whitesmoke;
-    padding: 2%;
+.timer-notes {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 2%;
 }
 
 .modal-content {
@@ -217,7 +217,7 @@ a {
 }
 
 .teal-btn {
-  background: #A6DED3 !important;
+  background: #a6ded3 !important;
   border-radius: 8px;
   border: none !important;
   align-items: center;
@@ -236,47 +236,88 @@ a {
   margin-bottom: 5%;
 }
 
-#complete-activity-button{
-    border-radius: 15px;
-    margin-top: 5%;
-    padding: 2%
+#complete-activity-button {
+  border-radius: 15px;
+  margin-top: 5%;
+  padding: 2%;
 }
-
 
 /* timer things */
-#timer-input{
-    border-radius: 15px;
-    background-color: whitesmoke;
-    padding: 2%;
-    
+#timer-input {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 2%;
 }
 
-.timer-heading{
-    background-image: url(../images/gradient\ background.png);
+.timer-heading {
+  background-image: url(../images/gradient\ background.png);
 }
-.timer-activity-name{
-    padding-top: 5%;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-}
-
-.timer-activity-name-two{
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
+.timer-activity-name {
+  padding-top: 5%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
-.timer-btn{
-    border-radius: 20px !important;
-    margin-top: 5%;
-    padding: 2%
+.timer-activity-name-two {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
-.time-notes{
-    padding-top: 10%;
-}
-.time-buttons{
-    padding-top: 10%;
+.timer-btn {
+  border-radius: 20px !important;
+  margin-top: 5%;
+  padding: 2%;
 }
 
+.time-notes {
+  padding-top: 10%;
+}
+.time-buttons {
+  padding-top: 10%;
+}
+
+/* times up modals */
+#green {
+  background: #c1d289 !important;
+  border-radius: 15px;
+  border: none !important;
+  align-items: center;
+}
+
+#yellow {
+  background: #fbe46f !important;
+  border-radius: 15px;
+  border: none !important;
+  align-items: center;
+}
+#orange {
+  background: #fbbe79 !important;
+  border-radius: 15px;
+  border: none !important;
+  align-items: center;
+}
+
+#grey {
+  background: #e0e0e0 !important;
+  border-radius: 15px;
+  border: none !important;
+  align-items: center;
+}
+
+.modal-title {
+    margin-top: 3%;
+    font-family: "Rubik", sans-serif;
+  font-weight:bolder;
+  font-size: 30px;
+ 
+}
+.modal-title-two{
+    font-family: "Rubik", sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+    text-align:left;
+    margin-left: 5%;
+    margin-top: -2%;
+}
