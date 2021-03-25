@@ -279,6 +279,25 @@ a {
 }
 .time-buttons {
   padding-top: 10%;
+  justify-content: center;
+  display: inline-block;
+}
+
+.time-input{
+    display:inline-block;
+    position: relative;
+    border-radius: 50px;
+    margin: 0 auto;
+        width: 50px;
+    height: 50px;
+}
+.timer{
+    justify-content: center;
+}
+.label-wrap{
+    display: inline-block;
+    width: 90%;
+    text-align: right;
 }
 
 /* times up modals */
@@ -339,6 +358,8 @@ input[type="number"] {
   border-right: none;
   border-bottom: 2px solid gray;
   border-radius: 4px;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 .bpmenu-back {
