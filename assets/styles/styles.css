@@ -229,3 +229,7 @@ a {
 .sort-buttons {
   margin-bottom: 5%;
 }
+
+#complete-activity-button{
+    border-radius: 15px;
+}
