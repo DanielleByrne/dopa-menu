@@ -69,6 +69,12 @@ body {
   padding: 2%;
 }
 
+.timer-notes{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 2%;
+}
+
 .modal-content {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -232,4 +238,13 @@ a {
 
 #complete-activity-button{
     border-radius: 15px;
+    margin-top: 5%;
+    padding: 2%
+}
+
+#timer-input{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 2%;
+    
 }

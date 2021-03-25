@@ -11,13 +11,17 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
     <title>Timer</title>
   </head>
   <body>
     <div class="container">
       <div class="timer">
-        <div class="time">
-        </div>
+        <div class="time"></div>
         <div class="input-hours">
           <label for="length"> hour Length</label>
           <input
@@ -63,18 +67,28 @@
           </button>
         </div>
       </div>
-      <div class="actvivity-notes">
-        <label for="activity-notes">Activity Notes</label>
-        <textarea
-          id="activity-input"
-          name="activity-input"
-          rows="4"
-          cols="50"
-          placeholder="Write any details that will help you complete this activity, timing, steps, location, preparation notes etc."
-        ></textarea>
-      </div>
-      <div class="d-grid gap-2">
-        <a type="button" href="timesup.html" id ="complete-activity-button"class="btn btn-dark">Complete activity</a>
+      <div class="row">
+        <div class="col">
+          <div class="time-notes d-grid gap-2">
+            <label for="timer-notes">Activity Notes</label>
+            <textarea
+              id="timer-input"
+              name="timer-input"
+              rows="4"
+              cols="50"
+              placeholder="Write any details that will help you complete this activity, timing, steps, location, preparation notes etc."
+            ></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <a
+              type="button"
+              href="timesup.html"
+              id="complete-activity-button"
+              class="btn btn-dark"
+              >Complete activity</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </body>
