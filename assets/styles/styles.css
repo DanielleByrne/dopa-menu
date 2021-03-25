@@ -108,8 +108,8 @@ body {
 .scrolling-categories {
   overflow-x: scroll;
   overflow-y: hidden;
-  height: 50px;
-  width: 500px;
+  height: 100px;
+  width: 300px;
   display: inline-block;
   white-space: nowrap;
   /* border-radius: 15px; */
@@ -240,9 +240,11 @@ a {
 }
 
 #complete-activity-button {
+  color: white !important;
   border-radius: 15px;
   margin-top: 5%;
   padding: 2%;
+
 }
 
 /* timer things */
@@ -378,4 +380,23 @@ input[type="number"] {
   border-radius: 8px !important;
 }
 
-/* activity modal */
+.icon-too-big{
+  width: 25px; height: 15px;
+  padding: none;
+}
+
+  a:link, a:visited {
+    color: black !important;
+    text-decoration: none;
+}
+
+#a-tag-not-blue-or-black{
+  color: white !important;
+  text-decoration: none;
+}
+
+
+#a-tag-not-blue-or-black-again{
+  color: white !important;
+  text-decoration: none;
+}
