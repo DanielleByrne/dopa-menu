@@ -14,14 +14,41 @@
     <title>Activity</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light activity-heading">
+        <div class="container-fluid">
+          <img src="./assets/images/pomotato.png" alt="pomotato logo">
+          <a class="navbar-brand" href="index.html">Pomotato</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >All activities</a
+              >
+              <a class="nav-link" href="index.html">Today's List</a>
+              <a class="nav-link" href="index.html">Progress</a>
+              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link" href="index.html">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="activity-heading">
-      <a href="index.html" class="bpmenu-back">&#8249;</a>
       <h1 id="activity-header">Call or Message a friend</h1>
       <div class="activity-details">
-        <span class="badge rounded-pill bg-secondary">Social</span>
-        <span class="badge rounded-pill bg-secondary">Boost Energy</span>
-        <span class="badge rounded-pill bg-secondary">Low Effort</span>
-        <span class="badge rounded-pill bg-secondary">Medium</span>
+        <span class="badge rounded-pill bg-light text-dark">Social</span>
+        <span class="badge rounded-pill bg-light text-dark">Boost Energy</span>
+        <span class="badge rounded-pill bg-light text-dark">Low Effort</span>
+        <span class="badge rounded-pill bg-light text-dark">Medium</span>
       </div>
     </div>
     <div class="container">
@@ -38,17 +65,17 @@
           Catch up with Janet, ask about what to bring for upcoming game night.
         </p>
         <!-- Button trigger modal -->
-        <div class="d-grid gap-2">
+        <div class="activity-buttons btn-group">
           <button
             type="button"
-            class="btn btn-secondary"
+            class="btn rounded-pill side-to-side btn-outline-dark"
             id="modal-button"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
             Add to todays list
           </button>
-          <a type="button" class="btn btn-secondary" href="timer.html">
+          <a type="button" class="btn btn-dark side-to-side rounded-pill " href="timer.html">
             Start timer
           </a>
         </div>
@@ -77,7 +104,7 @@
                 Your activity has been added to today's list!
               </div>
               <p>👍</p>
-              <div class="modal-footer mx-auto border-0 d-grid gap-2">
+              <div class="modal-footer mx-auto border-0">
                 <a
                   type="button"
                   class="btn btn-secondary modal-buttons"
