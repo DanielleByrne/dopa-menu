@@ -1,5 +1,6 @@
 body {
   font-family: "Rubik", sans-serif;
+  overflow: hidden;
 }
 
 .today-buttons {
@@ -413,4 +414,9 @@ input[type="number"] {
 #another-not-black-font{
   color: white !important;
   text-decoration: none;
+}
+
+.add-item-btn {
+  margin-bottom: 5%;
+  margin-top: -1%;
 }
