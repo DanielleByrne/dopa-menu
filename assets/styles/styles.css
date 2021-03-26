@@ -110,7 +110,7 @@ body {
   overflow-x: scroll;
   overflow-y: hidden;
   height: 100px;
-  width: 300px;
+  width: 100vw;
   display: inline-block;
   white-space: nowrap;
   /* border-radius: 15px; */
