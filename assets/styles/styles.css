@@ -7,8 +7,8 @@ body {
   padding-left: 2%;
   padding-bottom: 5%;
   overflow-x: scroll;
-  overflow-y: hidden;
-  height: 100px;
+  /* overflow-y: hidden; */
+  height: 125px;
   width: 500px;
   display: inline-block;
   white-space: nowrap;
@@ -113,6 +113,14 @@ body {
   display: inline-block;
   white-space: nowrap;
   /* border-radius: 15px; */
+}
+.scrolling-categories-but-skinny{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 50px;
+  width: 300px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 #save-activity-btn {
@@ -229,6 +237,7 @@ a {
 
 .heading {
   margin-top: 4%;
+  padding-top: 5%;
 }
 
 .sort-heading {
@@ -397,6 +406,11 @@ input[type="number"] {
 
 
 #a-tag-not-blue-or-black-again{
+  color: white !important;
+  text-decoration: none;
+}
+
+#another-not-black-font{
   color: white !important;
   text-decoration: none;
 }
