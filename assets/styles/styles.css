@@ -1,6 +1,5 @@
 body {
   font-family: "Rubik", sans-serif;
-  overflow: hidden;
 }
 
 .today-buttons {
@@ -16,6 +15,7 @@ body {
 }
 
 .category-buttons {
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,7 +124,7 @@ body {
   overflow-x: scroll;
   overflow-y: hidden;
   height: 50px;
-  width: 300px;
+  width: 100vw;
   display: inline-block;
   white-space: nowrap;
 }
@@ -267,6 +267,7 @@ a {
   border-radius: 15px;
   background-color: whitesmoke;
   padding: 2%;
+  overflow: hidden;
 }
 
 .timer-heading {
@@ -289,6 +290,7 @@ a {
   border-radius: 20px !important;
   margin-top: 5%;
   padding: 2%;
+  overflow: hidden;
 }
 
 .time-notes {
@@ -310,6 +312,7 @@ a {
 }
 .timer{
     justify-content: center;
+    overflow: hidden;
 }
 .label-wrap{
     display: inline-block;
@@ -330,6 +333,7 @@ a {
   border-radius: 15px;
   border: none !important;
   align-items: center;
+  overflow: hidden;
 }
 #orange {
   background: #fbbe79 !important;
