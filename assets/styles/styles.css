@@ -141,6 +141,8 @@ body {
 .nav-heading {
   background-image: url(../images/gradient-crop1.png);
   text-align: left;
+  background-repeat: no-repeat;
+
 }
 
 .activity-heading {
@@ -272,6 +274,9 @@ a {
 
 .timer-heading {
   background-image: url(../images/gradient\ background.png);
+  background-repeat: no-repeat;
+  background-size:100%
+
 }
 .timer-activity-name {
   padding-top: 5%;
