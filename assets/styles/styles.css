@@ -434,3 +434,23 @@ input[type="number"] {
   margin-bottom: 5%;
   margin-top: -1%;
 }
+
+.modal-content{
+  background-image: url(../images/Modalgradient.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#modal-title{
+  margin-top: 30%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  
+}
+
+#modal-body{
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
